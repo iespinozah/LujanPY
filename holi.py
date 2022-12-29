@@ -9,3 +9,5 @@ print ("numero favorito: " + str(fav))
 num1 = 10
 num2 = 6
 result= num1*num2
+print ("el resultado de " , num1,  " por ", num2,  " es " , result)
+print ('fin por hoy')
