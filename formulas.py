@@ -1,8 +1,12 @@
-def area(a, b):
-    rpta=a*b
-    return rpta
+def area(x, y):
+    ar=x*y
+    peri=2*(x+y)
+    return ar, peri
 
-a=int(input("Escriba la base: "))
-b=int(input("Escriba la altura: "))
+x=int(input("Escriba la base: "))
+y=int(input("Escriba la altura: "))
 
-print(area(a, b))
+a, p = area(x, y)
+
+print ("Area ", a)
+print("perimetro ", p)
