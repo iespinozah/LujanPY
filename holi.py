@@ -10,6 +10,12 @@ def main():
     print ("Area ", a)
     print("perimetro ", p)
 
+def llamadoacadena():
+    cad = leer_cadena()
+    print ("El texto ingresado es: ", cad)
+    
 main()
+llamadoacadena()
+
 
 
