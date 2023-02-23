@@ -14,8 +14,5 @@ def llamadoacadena():
     cad = leer_cadena()
     print ("El texto ingresado es: ", cad)
     
-main()
+
 llamadoacadena()
-
-
-
