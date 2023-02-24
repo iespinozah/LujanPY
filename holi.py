@@ -11,9 +11,15 @@ def main():
     print("perimetro ", p)
 '''
 
-def llamadoacadena():
-    cad = leer_cadena()
+'''def main():
+    cad = formulas.leer_cadena()
     print ("El texto que ingresaste es: ", cad)
     
+main()'''
 
-llamadoacadena()
+x=int(input("ingresa la base"))
+y=int(input("ingresa el exponente"))
+def calcula_potencia(x, y):
+   return formulas.potencia(x, y)
+
+print (calcula_potencia(x, y))

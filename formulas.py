@@ -6,3 +6,7 @@ def area(x, y):
 def leer_cadena():
     cadena=input("Escriba una palabra o frase: ")
     return cadena
+
+def potencia(a, b):
+    x= pow(a, b)
+    return x
